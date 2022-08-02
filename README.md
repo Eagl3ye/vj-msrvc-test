@@ -1,34 +1,34 @@
-# microservices
+# Microservices
 Using H2 In-memory Database
 
-### Accounts
+## Accounts
 Port: 8080
 
-POST: localhost:8080/myAccount
-  - In Postman as JSON:
-  > { "customerId": 1 }
+    POST: localhost:8080/myAccount
+      - In Postman as JSON:
+      > { "customerId": 1 }
 
-POST:  localhost:8080/myCustomerDetails
-  - In Postman as JSON:
-  > { "customerId": 1 }
+    POST:  localhost:8080/myCustomerDetails
+      - In Postman as JSON:
+      > { "customerId": 1 }
 
-GET:   localhost:8080/account/properties
+    GET:   localhost:8080/account/properties
 
-### Loans
+## Loans
 Port: 8090
 
-POST:  localhost:8090/myLoans
-  - In Postman as JSON:
-  > { "customerId": 1 }
+    POST:  localhost:8090/myLoans
+      - In Postman as JSON:
+      > { "customerId": 1 }
 
-GET:   localhost:8090/loans/properties
+    GET:   localhost:8090/loans/properties
 
-### Cards
+## Cards
 Port: 9000
 
-POST:  localhost:9000/myCards
-  - In Postman as JSON:
-  > { "customerId": 1 }
+    POST:  localhost:9000/myCards
+      - In Postman as JSON:
+      > { "customerId": 1 }
 
-GET:  /cards/properties
+    GET:  /cards/properties
 
