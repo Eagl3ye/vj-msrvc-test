@@ -1,1 +1,2 @@
 # vj-msrvc-test
+test
