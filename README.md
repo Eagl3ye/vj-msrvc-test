@@ -3,6 +3,7 @@ Using H2 In-memory Database
 
 ## Accounts
 Port: 8080
+
 Requests:
 
     POST: localhost:8080/myAccount
@@ -17,6 +18,7 @@ Requests:
 
 ## Loans
 Port: 8090
+
 Requests:
 
     POST:  localhost:8090/myLoans
@@ -27,6 +29,7 @@ Requests:
 
 ## Cards
 Port: 9000
+
 Requests:
 
     POST:  localhost:9000/myCards
